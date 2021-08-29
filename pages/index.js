@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "../public/logo.png";
+import Musings from "../components/Musings/Musings";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
           I am a student, writer, artist, illustrator and developer.
         </span>
       </div>
+
+      {/* Musings Section*/}
+      <Musings />
     </div>
   );
 }
