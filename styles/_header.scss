@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__menu {
+    &:hover {
+      cursor: pointer;
+    }
+
+    > span {
+      display: block;
+      width: 41px;
+      height: 3px;
+      background-color: black;
+
+      &:not(:last-child) {
+        margin-bottom: 9px;
+      }
+    }
+  }
+}
