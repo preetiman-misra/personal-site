@@ -1,0 +1,22 @@
+.artwork {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  .heading {
+    font-size: 30px;
+    color: $pastelRed;
+  }
+
+  .bar {
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: $pastelRed;
+    margin-left: 16px;
+  }
+}
+
+.work {
+  margin-bottom: 10px;
+}

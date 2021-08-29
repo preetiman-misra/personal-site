@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logo from "../public/logo.png";
 import Musings from "../components/Musings/Musings";
+import Artwork from "../components/Artwork/Artwork";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         </div>
 
         <div className="header__logo">
-          <Image src={logo} alt="logo" width={82} height={82} quality={100} />
+          <Image src={logo} alt="logo" quality={100} />
         </div>
       </div>
 
@@ -31,6 +32,11 @@ export default function Home() {
 
       {/* Musings Section*/}
       <Musings />
+
+      <div className="spacer"></div>
+
+      {/* Artwork Section */}
+      <Artwork />
     </div>
   );
 }

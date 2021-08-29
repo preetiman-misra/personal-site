@@ -18,5 +18,16 @@
         margin-bottom: 9px;
       }
     }
+
+    @include breakpoint-up(large) {
+      display: none;
+    }
+  }
+
+  &__logo {
+    @include breakpoint-down(large) {
+      width: 82px;
+      height: 82px;
+    }
   }
 }

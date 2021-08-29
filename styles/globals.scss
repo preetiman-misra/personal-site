@@ -3,10 +3,12 @@
 
 // Partials and mixins
 @import "variables";
+@import "mixins";
 @import "helpers";
 @import "header";
 @import "intro";
 @import "musings";
+@import "artwork";
 
 // Global resets
 html,
@@ -27,8 +29,13 @@ a {
 
 .main {
   width: 100%;
-  max-width: 375px;
+  min-width: 375px;
   padding: 34px;
+  position: absolute;
+
+  @include breakpoint-up(large) {
+    padding: 98px;
+  }
 }
 
 button {
@@ -44,4 +51,12 @@ button {
   &:hover {
     background-color: black;
   }
+
+  @include breakpoint-up(medium) {
+    max-width: 251px;
+  }
+}
+
+.spacer {
+  height: 50px;
 }
