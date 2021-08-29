@@ -1,0 +1,26 @@
+// Helper classes
+// Colors
+.color {
+  &-violet {
+    color: $pastelViolet;
+  }
+
+  &-orange {
+    color: $pastelOrange;
+  }
+
+  &-red {
+    color: $pastelRed;
+  }
+}
+
+// Fonts
+.font {
+  &-prata {
+    font-family: "Prata", serif;
+  }
+
+  &-montserrat {
+    font-family: "Montserrat", sans-serif;
+  }
+}

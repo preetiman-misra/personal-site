@@ -3,6 +3,7 @@
 
 // Partials and mixins
 @import "variables";
+@import "helpers";
 @import "header";
 @import "intro";
 
@@ -25,5 +26,5 @@ a {
 
 .main {
   width: 100%;
-  padding: 34px;
+  margin: 34px;
 }

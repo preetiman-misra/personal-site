@@ -18,7 +18,15 @@ export default function Home() {
       </div>
 
       {/* Intro Section */}
-      <div className="intro"></div>
+      <div className="intro">
+        <span className="font-prata">Hi,</span>
+        <span className="font-prata">
+          I'm <span className="color-red">Preetiman Misra</span>.
+        </span>
+        <span className="detail">
+          I am a student, writer, artist, illustrator and developer.
+        </span>
+      </div>
     </div>
   );
 }
