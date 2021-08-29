@@ -16,6 +16,7 @@
 
 // Fonts
 .font {
+  // Font Family
   &-prata {
     font-family: "Prata", serif;
   }
@@ -23,4 +24,22 @@
   &-montserrat {
     font-family: "Montserrat", sans-serif;
   }
+
+  // Font Size
+  &-lg {
+    font-size: $font-lg;
+  }
+
+  &-md {
+    font-size: $font-md;
+  }
+
+  &-sm {
+    font-size: $font-sm;
+  }
+}
+
+// Text Transform
+.center {
+  text-align: center;
 }

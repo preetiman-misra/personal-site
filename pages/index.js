@@ -5,7 +5,7 @@ import Artwork from "../components/Artwork/Artwork";
 
 export default function Home() {
   return (
-    <div className="main">
+    <>
       {/* Header Section */}
       <div className="header">
         <div className="header__menu">
@@ -37,6 +37,6 @@ export default function Home() {
 
       {/* Artwork Section */}
       <Artwork />
-    </div>
+    </>
   );
 }
